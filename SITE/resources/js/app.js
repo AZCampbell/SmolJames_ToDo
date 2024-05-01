@@ -7,6 +7,7 @@ bodyEl.addEventListener("mousemove", (event) => {
   const xPos = event.offsetX;
   const yPos = event.offsetY;
   //   Create new span element at mouse position
+  const spanEl = document.createElement("span");
   spanEl.style.left = xPos + "px";
   spanEl.style.top = yPos + "px";
   //   Create random size for span as size variable
